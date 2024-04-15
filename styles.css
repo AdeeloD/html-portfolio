@@ -1,10 +1,14 @@
 .top-book
 {
-    position:absolute;
+    position: absolute;
     left: 50px;
     top: 40px;
     height: 150px;
     width: 150px;
+ }
+.down-cat{
+  height: 48px;
+  height: 48px;
  }
  .body
  {
