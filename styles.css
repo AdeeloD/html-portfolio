@@ -1,0 +1,104 @@
+.top-book
+{
+    position:absolute;
+    left: 50px;
+    top: 40px;
+    height: 150px;
+    width: 150px;
+ }
+ .body
+ {
+    background-color:#cdeeff;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+h1 {
+    color: black;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 4rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-family: "Micro 5 Charted", sans-serif;
+    font-style: normal;
+    text-align: center;
+  }
+  .top-container {
+    background-color:#cdeeff;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .top-container2
+  {
+    background-color:#cdeeff;
+    position:relative;
+    text-align: center;
+  }
+.btn {
+  background: #cdeeff;
+  background-image: -webkit-linear-gradient(top, #cdeeff);
+  background-image: -moz-linear-gradient(top, #cdeeff);
+  background-image: -ms-linear-gradient(top, #cdeeff);
+  background-image: -o-linear-gradient(top, #cdeeff);
+  background-image: linear-gradient(to bottom,#cdeeff);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:#cdeeff;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.profilepic
+{
+height: 180px;
+width: 180px;
+}
+.middle-container 
+{
+  text-align: center;
+  margin: 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.bottom-container {
+  background-color:#cdeeff;
+  padding: 50px 0 20px;
+  text-align: center;
+}
